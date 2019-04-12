@@ -1,0 +1,1259 @@
+[2017-06-06T18:19:05,713][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-06T18:19:06,402][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [275.6gb], net total_space [464.6gb], spins? [unknown], types [hfs]
+[2017-06-06T18:19:06,403][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-06T18:19:07,019][INFO ][o.e.n.Node               ] node name [OIHbYBc] derived from node ID [OIHbYBcUTYugaFV1qHfzMA]; set [node.name] to override
+[2017-06-06T18:19:07,080][INFO ][o.e.n.Node               ] version[5.2.1], pid[1187], build[db0d481/2017-02-09T22:05:32.386Z], OS[Mac OS X/10.12.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b17]
+[2017-06-06T18:19:09,916][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [aggs-matrix-stats]
+[2017-06-06T18:19:09,916][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [ingest-common]
+[2017-06-06T18:19:09,916][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-expression]
+[2017-06-06T18:19:09,916][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-groovy]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-mustache]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-painless]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [percolator]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [reindex]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty3]
+[2017-06-06T18:19:09,917][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty4]
+[2017-06-06T18:19:09,918][INFO ][o.e.p.PluginsService     ] [OIHbYBc] no plugins loaded
+[2017-06-06T18:19:17,736][INFO ][o.e.n.Node               ] initialized
+[2017-06-06T18:19:17,736][INFO ][o.e.n.Node               ] [OIHbYBc] starting ...
+[2017-06-06T18:19:23,423][INFO ][o.e.t.TransportService   ] [OIHbYBc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-06T18:19:26,661][INFO ][o.e.c.s.ClusterService   ] [OIHbYBc] new_master {OIHbYBc}{OIHbYBcUTYugaFV1qHfzMA}{jF7pXmRHQTy5goEKd66wdg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-06T18:19:26,773][INFO ][o.e.h.HttpServer         ] [OIHbYBc] publish_address {192.168.1.103:9200}, bound_addresses {[::]:9200}
+[2017-06-06T18:19:26,774][INFO ][o.e.n.Node               ] [OIHbYBc] started
+[2017-06-06T18:19:28,075][INFO ][o.e.g.GatewayService     ] [OIHbYBc] recovered [10] indices into cluster_state
+[2017-06-06T18:19:42,087][INFO ][o.e.c.r.a.AllocationService] [OIHbYBc] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][4]] ...]).
+[2017-06-06T18:20:07,989][INFO ][o.e.n.Node               ] [OIHbYBc] stopping ...
+[2017-06-06T18:20:08,229][INFO ][o.e.n.Node               ] [OIHbYBc] stopped
+[2017-06-06T18:20:08,230][INFO ][o.e.n.Node               ] [OIHbYBc] closing ...
+[2017-06-06T18:20:08,239][INFO ][o.e.n.Node               ] [OIHbYBc] closed
+[2017-06-06T18:41:33,746][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-06T18:41:34,136][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [275.6gb], net total_space [464.6gb], spins? [unknown], types [hfs]
+[2017-06-06T18:41:34,136][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-06T18:41:34,842][INFO ][o.e.n.Node               ] node name [OIHbYBc] derived from node ID [OIHbYBcUTYugaFV1qHfzMA]; set [node.name] to override
+[2017-06-06T18:41:34,858][INFO ][o.e.n.Node               ] version[5.2.1], pid[1292], build[db0d481/2017-02-09T22:05:32.386Z], OS[Mac OS X/10.12.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b17]
+[2017-06-06T18:41:37,398][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [aggs-matrix-stats]
+[2017-06-06T18:41:37,398][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [ingest-common]
+[2017-06-06T18:41:37,398][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-expression]
+[2017-06-06T18:41:37,398][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-groovy]
+[2017-06-06T18:41:37,399][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-mustache]
+[2017-06-06T18:41:37,399][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-painless]
+[2017-06-06T18:41:37,399][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [percolator]
+[2017-06-06T18:41:37,399][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [reindex]
+[2017-06-06T18:41:37,399][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty3]
+[2017-06-06T18:41:37,400][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty4]
+[2017-06-06T18:41:37,400][INFO ][o.e.p.PluginsService     ] [OIHbYBc] no plugins loaded
+[2017-06-06T18:41:44,119][INFO ][o.e.n.Node               ] initialized
+[2017-06-06T18:41:44,127][INFO ][o.e.n.Node               ] [OIHbYBc] starting ...
+[2017-06-06T18:41:50,056][INFO ][o.e.t.TransportService   ] [OIHbYBc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-06T18:41:53,282][INFO ][o.e.c.s.ClusterService   ] [OIHbYBc] new_master {OIHbYBc}{OIHbYBcUTYugaFV1qHfzMA}{6C5LBSh8R_Wrl9nw22rhWg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-06T18:41:53,351][INFO ][o.e.h.HttpServer         ] [OIHbYBc] publish_address {192.168.1.103:9200}, bound_addresses {[::]:9200}
+[2017-06-06T18:41:53,351][INFO ][o.e.n.Node               ] [OIHbYBc] started
+[2017-06-06T18:41:54,699][INFO ][o.e.g.GatewayService     ] [OIHbYBc] recovered [10] indices into cluster_state
+[2017-06-06T18:42:08,624][INFO ][o.e.c.r.a.AllocationService] [OIHbYBc] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][2], [footballdata][3]] ...]).
+[2017-06-06T18:42:49,053][INFO ][o.e.c.m.MetaDataDeleteIndexService] [OIHbYBc] [reacciones/CNWojgjwRzura8WVuemBag] deleting index
+[2017-06-06T18:44:24,977][INFO ][o.e.c.m.MetaDataCreateIndexService] [OIHbYBc] [reacciones] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-06-06T18:44:25,192][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:44:25,195][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:44:25,537][INFO ][o.e.c.m.MetaDataMappingService] [OIHbYBc] [reacciones/OjL_KDgcQuWGZs4tIew7cA] create_mapping [likes]
+[2017-06-06T18:44:26,849][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:44:26,851][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:44:53,382][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:44:53,393][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:44:53,426][INFO ][o.e.c.m.MetaDataMappingService] [OIHbYBc] [reacciones/OjL_KDgcQuWGZs4tIew7cA] create_mapping [loves]
+[2017-06-06T18:44:53,570][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:44:53,573][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:45:11,200][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:45:11,202][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:45:11,268][INFO ][o.e.c.m.MetaDataMappingService] [OIHbYBc] [reacciones/OjL_KDgcQuWGZs4tIew7cA] create_mapping [hahas]
+[2017-06-06T18:45:11,423][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:45:11,425][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:45:37,237][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:45:37,239][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [1s] to [-1]
+[2017-06-06T18:45:37,422][INFO ][o.e.c.m.MetaDataMappingService] [OIHbYBc] [reacciones/OjL_KDgcQuWGZs4tIew7cA] create_mapping [angry]
+[2017-06-06T18:45:38,417][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:45:38,441][INFO ][o.e.c.s.IndexScopedSettings] [OIHbYBc] updating [index.refresh_interval] from [-1] to [1s]
+[2017-06-06T18:51:37,090][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][4], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=V_VsFcaASOW9inPSPs9Qig]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,092][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][1], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=vBbI44tlTzu8JUhoJ1cpwg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,096][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][0], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=AJ8xYwc1QcaY4ddbQe_HNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,103][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][3], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=YG6lMDX0RMSDnYV08cPw0g]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,124][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][2], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=6uC2sFCNRCeiZrcP22JoNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,280][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] All shards failed for phase: [query]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,538][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][2], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=6uC2sFCNRCeiZrcP22JoNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,540][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][0], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=AJ8xYwc1QcaY4ddbQe_HNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,540][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][1], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=vBbI44tlTzu8JUhoJ1cpwg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,538][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][3], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=YG6lMDX0RMSDnYV08cPw0g]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,538][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][4], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=V_VsFcaASOW9inPSPs9Qig]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,548][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] All shards failed for phase: [query]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,672][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][2], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=6uC2sFCNRCeiZrcP22JoNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,672][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][1], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=vBbI44tlTzu8JUhoJ1cpwg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,672][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][0], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=AJ8xYwc1QcaY4ddbQe_HNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,672][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][3], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=YG6lMDX0RMSDnYV08cPw0g]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,672][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][4], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=V_VsFcaASOW9inPSPs9Qig]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,681][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] All shards failed for phase: [query]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,756][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][4], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=V_VsFcaASOW9inPSPs9Qig]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,756][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][2], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=6uC2sFCNRCeiZrcP22JoNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,756][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][0], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=AJ8xYwc1QcaY4ddbQe_HNw]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,756][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][1], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=vBbI44tlTzu8JUhoJ1cpwg]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}] lastShard [true]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,760][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] [reacciones][3], node[OIHbYBcUTYugaFV1qHfzMA], [P], s[STARTED], a[id=YG6lMDX0RMSDnYV08cPw0g]: Failed to execute [SearchRequest{searchType=QUERY_THEN_FETCH, indices=[reacciones], indicesOptions=IndicesOptions[id=38, ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=true, expand_wildcards_closed=false, allow_alisases_to_multiple_indices=true, forbid_closed_indices=true], types=[likes], routing='null', preference='null', requestCache=null, scroll=null, source={
+  "size" : 10,
+  "query" : {
+    "match_all" : {
+      "boost" : 1.0
+    }
+  },
+  "aggregations" : {
+    "rest" : {
+      "terms" : {
+        "field" : "name",
+        "size" : 5,
+        "min_doc_count" : 1,
+        "shard_min_doc_count" : 0,
+        "show_term_doc_count_error" : false,
+        "order" : [
+          {
+            "_count" : "desc"
+          },
+          {
+            "_term" : "asc"
+          }
+        ]
+      }
+    }
+  }
+}}]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:51:37,763][DEBUG][o.e.a.s.TransportSearchAction] [OIHbYBc] All shards failed for phase: [query]
+org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][indices:data/read/search[phase/query]]
+Caused by: java.lang.IllegalArgumentException: Fielddata is disabled on text fields by default. Set fielddata=true on [name] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.
+	at org.elasticsearch.index.mapper.TextFieldMapper$TextFieldType.fielddataBuilder(TextFieldMapper.java:336) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.fielddata.IndexFieldDataService.getForField(IndexFieldDataService.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.query.QueryShardContext.getForField(QueryShardContext.java:165) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceConfig.resolve(ValuesSourceConfig.java:97) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.resolveConfig(ValuesSourceAggregationBuilder.java:297) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:290) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.support.ValuesSourceAggregationBuilder.doBuild(ValuesSourceAggregationBuilder.java:40) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AbstractAggregationBuilder.build(AbstractAggregationBuilder.java:126) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.aggregations.AggregatorFactories$Builder.build(AggregatorFactories.java:212) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:709) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:540) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:516) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:251) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:298) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.search.SearchTransportService$6.messageReceived(SearchTransportService.java:295) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:52:54,366][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [OIHbYBc] failed to put mappings on indices [[[reacciones/OjL_KDgcQuWGZs4tIew7cA]]], type [likes]
+org.elasticsearch.index.mapper.MapperParsingException: No type specified for field [type]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:271) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:53:02,473][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [OIHbYBc] failed to put mappings on indices [[[reacciones/OjL_KDgcQuWGZs4tIew7cA]]], type [likes]
+org.elasticsearch.index.mapper.MapperParsingException: No type specified for field [name]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseProperties(ObjectMapper.java:271) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.ObjectMapper$TypeParser.parseObjectOrDocumentTypeProperties(ObjectMapper.java:203) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.RootObjectMapper$TypeParser.parse(RootObjectMapper.java:102) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:111) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.DocumentMapperParser.parse(DocumentMapperParser.java:91) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.MapperService.parse(MapperService.java:602) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:264) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:56:12,491][DEBUG][o.e.a.a.i.m.p.TransportPutMappingAction] [OIHbYBc] failed to put mappings on indices [[[reacciones/OjL_KDgcQuWGZs4tIew7cA]]], type [likes]
+java.lang.IllegalArgumentException: Mapper for [name] conflicts with existing mapping in other types:
+[mapper [name] is used by multiple types. Set update_all_types to true to update [fielddata] across all types.]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.checkCompatibility(FieldTypeLookup.java:130) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.FieldTypeLookup.copyAndAddAll(FieldTypeLookup.java:94) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:390) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.MapperService.internalMerge(MapperService.java:327) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.index.mapper.MapperService.merge(MapperService.java:260) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.applyRequest(MetaDataMappingService.java:311) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor.execute(MetaDataMappingService.java:230) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.executeTasks(ClusterService.java:674) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.calculateTaskOutputs(ClusterService.java:653) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService.runTasks(ClusterService.java:612) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.cluster.service.ClusterService$UpdateTask.run(ClusterService.java:1112) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:527) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:238) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:201) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+[2017-06-06T18:56:25,300][INFO ][o.e.c.m.MetaDataMappingService] [OIHbYBc] [reacciones/OjL_KDgcQuWGZs4tIew7cA] update_mapping [likes]
+[2017-06-06T23:41:02,917][INFO ][o.e.n.Node               ] [OIHbYBc] stopping ...
+[2017-06-06T23:41:22,785][INFO ][o.e.n.Node               ] [OIHbYBc] stopped
+[2017-06-06T23:41:22,785][INFO ][o.e.n.Node               ] [OIHbYBc] closing ...
+[2017-06-06T23:41:23,914][INFO ][o.e.n.Node               ] [OIHbYBc] closed

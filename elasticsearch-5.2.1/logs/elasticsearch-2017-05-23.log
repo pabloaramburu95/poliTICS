@@ -1,0 +1,201 @@
+[2017-05-23T16:43:01,363][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-23T16:43:03,414][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [277.8gb], net total_space [464.6gb], spins? [unknown], types [hfs]
+[2017-05-23T16:43:03,414][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-23T16:43:12,069][INFO ][o.e.n.Node               ] node name [OIHbYBc] derived from node ID [OIHbYBcUTYugaFV1qHfzMA]; set [node.name] to override
+[2017-05-23T16:43:12,222][INFO ][o.e.n.Node               ] version[5.2.1], pid[861], build[db0d481/2017-02-09T22:05:32.386Z], OS[Mac OS X/10.12.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b17]
+[2017-05-23T16:43:24,897][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [aggs-matrix-stats]
+[2017-05-23T16:43:24,913][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [ingest-common]
+[2017-05-23T16:43:24,914][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-expression]
+[2017-05-23T16:43:24,914][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-groovy]
+[2017-05-23T16:43:24,914][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-mustache]
+[2017-05-23T16:43:24,914][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-painless]
+[2017-05-23T16:43:24,915][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [percolator]
+[2017-05-23T16:43:24,915][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [reindex]
+[2017-05-23T16:43:24,915][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty3]
+[2017-05-23T16:43:24,915][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty4]
+[2017-05-23T16:43:24,916][INFO ][o.e.p.PluginsService     ] [OIHbYBc] no plugins loaded
+[2017-05-23T16:44:17,883][INFO ][o.e.n.Node               ] initialized
+[2017-05-23T16:44:17,894][INFO ][o.e.n.Node               ] [OIHbYBc] starting ...
+[2017-05-23T16:44:23,558][INFO ][o.e.t.TransportService   ] [OIHbYBc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-23T16:44:26,822][INFO ][o.e.c.s.ClusterService   ] [OIHbYBc] new_master {OIHbYBc}{OIHbYBcUTYugaFV1qHfzMA}{mfsZLn5dTjGKE7BuVVgK7Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-23T16:44:27,085][INFO ][o.e.h.HttpServer         ] [OIHbYBc] publish_address {192.168.1.104:9200}, bound_addresses {[::]:9200}
+[2017-05-23T16:44:27,085][INFO ][o.e.n.Node               ] [OIHbYBc] started
+[2017-05-23T16:44:30,951][INFO ][o.e.g.GatewayService     ] [OIHbYBc] recovered [10] indices into cluster_state
+[2017-05-23T16:44:41,617][INFO ][o.e.c.r.a.AllocationService] [OIHbYBc] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][1], [footballdata][4], [footballdata][3]] ...]).
+[2017-05-23T16:45:46,255][INFO ][o.e.m.j.JvmGcMonitorService] [OIHbYBc] [gc][88] overhead, spent [280ms] collecting in the last [1s]
+[2017-05-23T17:26:04,449][INFO ][o.e.m.j.JvmGcMonitorService] [OIHbYBc] [gc][2498] overhead, spent [323ms] collecting in the last [1s]
+[2017-05-23T19:52:28,667][INFO ][o.e.n.Node               ] [OIHbYBc] stopping ...
+[2017-05-23T19:52:29,599][INFO ][o.e.n.Node               ] [OIHbYBc] stopped
+[2017-05-23T19:52:29,599][INFO ][o.e.n.Node               ] [OIHbYBc] closing ...
+[2017-05-23T19:52:29,668][INFO ][o.e.n.Node               ] [OIHbYBc] closed
+[2017-05-23T21:32:28,149][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-23T21:32:28,902][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [276.6gb], net total_space [464.6gb], spins? [unknown], types [hfs]
+[2017-05-23T21:32:28,903][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-23T21:32:29,850][INFO ][o.e.n.Node               ] node name [OIHbYBc] derived from node ID [OIHbYBcUTYugaFV1qHfzMA]; set [node.name] to override
+[2017-05-23T21:32:29,947][INFO ][o.e.n.Node               ] version[5.2.1], pid[865], build[db0d481/2017-02-09T22:05:32.386Z], OS[Mac OS X/10.12.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b17]
+[2017-05-23T21:32:35,116][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [aggs-matrix-stats]
+[2017-05-23T21:32:35,116][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [ingest-common]
+[2017-05-23T21:32:35,116][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-expression]
+[2017-05-23T21:32:35,116][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-groovy]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-mustache]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-painless]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [percolator]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [reindex]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty3]
+[2017-05-23T21:32:35,117][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty4]
+[2017-05-23T21:32:35,118][INFO ][o.e.p.PluginsService     ] [OIHbYBc] no plugins loaded
+[2017-05-23T21:32:51,196][INFO ][o.e.n.Node               ] initialized
+[2017-05-23T21:32:51,216][INFO ][o.e.n.Node               ] [OIHbYBc] starting ...
+[2017-05-23T21:32:58,738][INFO ][o.e.t.TransportService   ] [OIHbYBc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-23T21:33:02,499][INFO ][o.e.c.s.ClusterService   ] [OIHbYBc] new_master {OIHbYBc}{OIHbYBcUTYugaFV1qHfzMA}{W118SHVCRk24dhXziQmvNg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-23T21:33:03,008][INFO ][o.e.h.HttpServer         ] [OIHbYBc] publish_address {192.168.1.100:9200}, bound_addresses {[::]:9200}
+[2017-05-23T21:33:03,009][INFO ][o.e.n.Node               ] [OIHbYBc] started
+[2017-05-23T21:33:12,996][WARN ][o.e.g.GatewayAllocator$InternalPrimaryShardAllocator] [OIHbYBc] [update_log][2]: failed to list shard for shard_started on node [OIHbYBcUTYugaFV1qHfzMA]
+org.elasticsearch.action.FailedNodeException: Failed node [OIHbYBcUTYugaFV1qHfzMA]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:247) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$300(TransportNodesAction.java:160) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:219) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1024) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1126) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1104) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.onFailure(TransportService.java:621) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:581) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][internal:gateway/local/started_shards[n]]
+Caused by: org.elasticsearch.ElasticsearchException: failed to load started shards
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:171) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: org.elasticsearch.ElasticsearchException: java.io.IOException: failed to read [id:149, legacy:false, file:/Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st]
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:150) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:334) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: java.io.IOException: failed to read [id:149, legacy:false, file:/Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:327) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: java.nio.file.NoSuchFileException: /Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_66]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_66]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:77) ~[lucene-core-6.4.1.jar:6.4.1 72f75b2503fa0aa4f0aff76d439874feb923bb0e - jpountz - 2017-02-01 14:43:32]
+	at org.elasticsearch.gateway.MetaDataStateFormat.read(MetaDataStateFormat.java:187) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:322) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+[2017-05-23T21:33:12,995][WARN ][o.e.g.GatewayAllocator$InternalPrimaryShardAllocator] [OIHbYBc] [update_log][1]: failed to list shard for shard_started on node [OIHbYBcUTYugaFV1qHfzMA]
+org.elasticsearch.action.FailedNodeException: Failed node [OIHbYBcUTYugaFV1qHfzMA]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.onFailure(TransportNodesAction.java:247) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction.access$300(TransportNodesAction.java:160) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$AsyncAction$1.handleException(TransportNodesAction.java:219) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1024) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1126) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1104) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.onFailure(TransportService.java:621) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.onFailure(ThreadContext.java:581) [elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [elasticsearch-5.2.1.jar:5.2.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_66]
+Caused by: org.elasticsearch.transport.RemoteTransportException: [OIHbYBc][127.0.0.1:9300][internal:gateway/local/started_shards[n]]
+Caused by: org.elasticsearch.ElasticsearchException: failed to load started shards
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:171) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: org.elasticsearch.ElasticsearchException: java.io.IOException: failed to read [id:149, legacy:false, file:/Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st]
+	at org.elasticsearch.ExceptionsHelper.maybeThrowRuntimeAndSuppress(ExceptionsHelper.java:150) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:334) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: java.io.IOException: failed to read [id:149, legacy:false, file:/Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:327) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+Caused by: java.nio.file.NoSuchFileException: /Users/pabloaramburu/Desktop/TFG/elasticsearch-5.2.1/data/nodes/0/indices/Rb66asDmScqQOcE-DBGsUQ/_state/state-149.st
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:214) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_66]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_66]
+	at org.apache.lucene.store.SimpleFSDirectory.openInput(SimpleFSDirectory.java:77) ~[lucene-core-6.4.1.jar:6.4.1 72f75b2503fa0aa4f0aff76d439874feb923bb0e - jpountz - 2017-02-01 14:43:32]
+	at org.elasticsearch.gateway.MetaDataStateFormat.read(MetaDataStateFormat.java:187) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.MetaDataStateFormat.loadLatestState(MetaDataStateFormat.java:322) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:127) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.gateway.TransportNodesListGatewayStartedShards.nodeOperation(TransportNodesListGatewayStartedShards.java:61) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction.nodeOperation(TransportNodesAction.java:145) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:270) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.action.support.nodes.TransportNodesAction$NodeTransportHandler.messageReceived(TransportNodesAction.java:266) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:69) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:610) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:596) ~[elasticsearch-5.2.1.jar:5.2.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) ~[elasticsearch-5.2.1.jar:5.2.1]
+	... 3 more
+[2017-05-23T21:33:15,593][INFO ][o.e.g.GatewayService     ] [OIHbYBc] recovered [10] indices into cluster_state
+[2017-05-23T21:34:25,121][INFO ][o.e.c.r.a.AllocationService] [OIHbYBc] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][0], [footballdata][3]] ...]).
+[2017-05-23T22:05:37,693][INFO ][o.e.m.j.JvmGcMonitorService] [OIHbYBc] [gc][1960] overhead, spent [346ms] collecting in the last [1.3s]
+[2017-05-23T22:46:56,225][INFO ][o.e.n.Node               ] [OIHbYBc] stopping ...
+[2017-05-23T22:46:58,364][INFO ][o.e.n.Node               ] [OIHbYBc] stopped
+[2017-05-23T22:46:58,364][INFO ][o.e.n.Node               ] [OIHbYBc] closing ...
+[2017-05-23T22:46:58,456][INFO ][o.e.n.Node               ] [OIHbYBc] closed

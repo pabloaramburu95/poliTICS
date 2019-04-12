@@ -1,0 +1,29 @@
+[2017-05-16T21:42:18,909][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-05-16T21:42:19,715][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [271.3gb], net total_space [464.6gb], spins? [unknown], types [hfs]
+[2017-05-16T21:42:19,716][INFO ][o.e.e.NodeEnvironment    ] [OIHbYBc] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-05-16T21:42:21,301][INFO ][o.e.n.Node               ] node name [OIHbYBc] derived from node ID [OIHbYBcUTYugaFV1qHfzMA]; set [node.name] to override
+[2017-05-16T21:42:21,547][INFO ][o.e.n.Node               ] version[5.2.1], pid[2392], build[db0d481/2017-02-09T22:05:32.386Z], OS[Mac OS X/10.12.4/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_66/25.66-b17]
+[2017-05-16T21:42:26,605][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [aggs-matrix-stats]
+[2017-05-16T21:42:26,605][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [ingest-common]
+[2017-05-16T21:42:26,605][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-expression]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-groovy]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-mustache]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [lang-painless]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [percolator]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [reindex]
+[2017-05-16T21:42:26,606][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty3]
+[2017-05-16T21:42:26,607][INFO ][o.e.p.PluginsService     ] [OIHbYBc] loaded module [transport-netty4]
+[2017-05-16T21:42:26,608][INFO ][o.e.p.PluginsService     ] [OIHbYBc] no plugins loaded
+[2017-05-16T21:42:47,766][INFO ][o.e.n.Node               ] initialized
+[2017-05-16T21:42:47,776][INFO ][o.e.n.Node               ] [OIHbYBc] starting ...
+[2017-05-16T21:42:54,651][INFO ][o.e.t.TransportService   ] [OIHbYBc] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-05-16T21:42:58,720][INFO ][o.e.c.s.ClusterService   ] [OIHbYBc] new_master {OIHbYBc}{OIHbYBcUTYugaFV1qHfzMA}{1iweW6GdQvu4DkCCYjZvuA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-05-16T21:43:00,501][INFO ][o.e.h.HttpServer         ] [OIHbYBc] publish_address {192.168.1.135:9200}, bound_addresses {[::]:9200}
+[2017-05-16T21:43:00,502][INFO ][o.e.n.Node               ] [OIHbYBc] started
+[2017-05-16T21:43:06,624][INFO ][o.e.g.GatewayService     ] [OIHbYBc] recovered [13] indices into cluster_state
+[2017-05-16T21:43:33,370][INFO ][o.e.c.r.a.AllocationService] [OIHbYBc] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[footballdata][4], [footballdata][2]] ...]).
+[2017-05-16T21:44:20,954][INFO ][o.e.m.j.JvmGcMonitorService] [OIHbYBc] [gc][93] overhead, spent [267ms] collecting in the last [1s]
+[2017-05-16T21:48:04,236][INFO ][o.e.n.Node               ] [OIHbYBc] stopping ...
+[2017-05-16T21:48:04,663][INFO ][o.e.n.Node               ] [OIHbYBc] stopped
+[2017-05-16T21:48:04,664][INFO ][o.e.n.Node               ] [OIHbYBc] closing ...
+[2017-05-16T21:48:04,674][INFO ][o.e.n.Node               ] [OIHbYBc] closed
